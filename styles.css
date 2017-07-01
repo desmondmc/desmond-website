@@ -23,7 +23,6 @@
 
   footer {
     text-align: center; /* align child divs vertical */
-    justify-content: bottom; /* align horizontal */
     background: #20BF55;
     height: 15vh;
   }
