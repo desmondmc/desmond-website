@@ -4,7 +4,7 @@
   body {
     margin: 0;
   }
-  
+
   footer, main {
     font-family: "helvetica neue", sans-serif;
     padding: 1em;
@@ -26,13 +26,16 @@
     font-family: "helvetica neue", sans-serif;
     background: #6F4BAA;
     color: #FBFBFF;
+    transition: font-size 300ms ease-in-out; /* hover animation */
+  }
+
+  .link:hover {
+    font-size: 200%;
   }
 
   .fa {
     padding: 20px;
-    font-size: 30px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
     color: #FBFBFF;
   }
