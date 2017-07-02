@@ -4,21 +4,16 @@
   body {
     margin: 0;
   }
-  header, footer, main {
+  
+  footer, main {
     font-family: "helvetica neue", sans-serif;
     padding: 1em;
   }
 
   main {
-    min-height: calc(100vh - 35vh);
+    min-height: 85vh;
     background: #6F4BAA;
     color: #FBFBFF;
-  }
-
-  header {
-    background: #FBFBFF;
-    color: #757575;
-    height: 20vh;
   }
 
   footer {
@@ -29,7 +24,6 @@
 
   .link {
     font-family: "helvetica neue", sans-serif;
-    min-height: calc(100vh - 35vh);
     background: #6F4BAA;
     color: #FBFBFF;
   }
