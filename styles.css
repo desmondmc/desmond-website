@@ -1,31 +1,42 @@
   * {
    box-sizing: border-box; 
   }
+
+  @font-face {
+    font-family: "ocra";
+    src: url(ocra.ttf) format("truetype");
+  }
   
+  h1 {
+    font-family: "helvetica neue", sans-serif;
+    margin-bottom: 60px;
+  }
+
   body {
     margin: 0;
   }
 
   footer, main {
-    font-family: "helvetica neue", sans-serif;
-    padding: 1em;
+    font-family: "ocra", sans-serif;
+    padding: 2em;
+    line-height: 0.5;
   }
 
   main {
     min-height: 85vh;
-    background: #6F4BAA;
+    background: #a83f12;
     color: #FBFBFF;
   }
 
   footer {
     text-align: center; /* align child divs vertical */
-    background: #20BF55;
+    background: #a83f12;
     height: 15vh;
   }
 
   .link {
-    font-family: "helvetica neue", sans-serif;
-    background: #6F4BAA;
+    font-family: "ocra", sans-serif;
+    background: #a83f12;
     color: #FBFBFF;
     transition: font-size 300ms ease-in-out; /* hover animation */
   }
